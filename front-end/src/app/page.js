@@ -44,7 +44,7 @@ export default function Home() {
 
         {/* Main Content */}
         <div className="relative z-10">
-          <Navbar />
+          <Navbar isTransparent={true} />
 
           {/* Cake Image */}
           <div className="relative w-full" style={{ height: "360px" }}>

@@ -2,15 +2,19 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Navbar() {
+export default function Navbar({ isTransparent = false }) {
+  const backgroundClass = isTransparent ? "bg-transparent" : "bg-white";
+
   return (
-    <nav className="w-full flex items-center justify-between px-16 py-0 bg-transparent relative z-10">
+    <nav
+      className={`w-full flex items-center justify-between px-16 py-4 ${backgroundClass} relative z-10`}
+    >
       {/* Logo + CELEVERY Text */}
       <div className="flex items-center gap-0">
         <Image
           src="/cakeimg2.png"
           alt="Logo"
-          width={180} 
+          width={180}
           height={180}
           className="object-contain"
         />
