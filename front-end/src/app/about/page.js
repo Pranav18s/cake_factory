@@ -222,6 +222,7 @@ export default function AboutPage() {
           }}
         >
           {/* Image content will be added here later */}
+          <p className="text-center">IMAGE SPACE</p>
         </div>
       </main>
 
