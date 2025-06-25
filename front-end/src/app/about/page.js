@@ -200,6 +200,29 @@ export default function AboutPage() {
             <p className="text-[#6F7B7A] text-[17px]">5 Star Received</p>
           </div>
         </div>
+        {/* Gateway Heading Section */}
+        <div className="max-w-7xl mx-auto px-4 mb-12">
+          <h2 className="text-[64px] leading-[55px] font-[Poppins] font-semibold">
+            <span className="text-black">Your </span>
+            <span className="text-[#29A298]">gateway </span>
+            <span className="text-black">to</span>
+          </h2>
+          <p className="text-[48px] leading-[55px] font-[Poppins] font-semibold text-black">
+            online
+          </p>
+        </div>
+        {/* Image Section Placeholder */}
+        <div
+          className="mx-auto mb-20"
+          style={{
+            width: "1756px",
+            height: "280px",
+            borderRadius: "50px",
+            backgroundColor: "#F1FAF9",
+          }}
+        >
+          {/* Image content will be added here later */}
+        </div>
       </main>
 
       <Footer />
