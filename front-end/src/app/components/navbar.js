@@ -30,6 +30,7 @@ export default function Navbar({ isTransparent = false }) {
           { name: "Tutorial", href: "/tutorial" },
           { name: "About Us", href: "/about" },
           { name: "Contact", href: "/contact" },
+          { name: "Privacy-Policy", href: "/privacy-policy" }, // ✅ Added this
         ].map((link, index) => (
           <Link
             key={index}
